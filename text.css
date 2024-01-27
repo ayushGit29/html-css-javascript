@@ -123,3 +123,98 @@ h1, p {
 #learn:hover {
     text-decoration: underline;
 }
+
+#new {
+    color: rgb(224, 81, 34);
+    margin-left: 130px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#macbook {
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(55, 53, 53);
+    margin-left: 95px;
+}
+
+#charge {
+    color: rgb(55, 53, 53);
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+#price {
+    font-size: 14px;
+    margin-left: 110px;
+    margin-top: 8px;
+}
+
+#buy {
+    background-color: rgb(37, 150, 200);
+    color: white;
+    border: none;
+    padding: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 17px;
+    margin-left: 128px;
+    transition: opacity 0.1s;
+}
+
+#buy:hover {
+    opacity: 0.8;
+}
+
+#buy:active {
+    opacity: 0.6;
+}
+
+#fdc1 {
+    font-weight: bold;
+}
+
+#fdc2 {
+    color: rgb(93, 89, 89);
+}
+
+#fdc3 {
+    width: 450px;
+}
+
+#fdc4 {
+    margin-top: 20px;
+}
+
+#fdc5 {
+    color: rgb(17, 133, 227);
+    cursor: pointer;
+    transition: text-decoration 0.1s;
+}
+
+#fdc5:hover {
+    text-decoration: underline;
+}
+
+#stock1 {
+    font-size: 25px;
+}
+
+#stock2 {
+    color: rgb(57, 54, 54);
+    font-size: 15px;
+}
+
+#stock3 {
+    color: rgb(19, 136, 42);
+    font-size: 13px;
+}
+
+#stock4 {
+    color: rgb(57, 54, 54);
+}
+
+#stock5 {
+    color: rgb(237, 44, 44);
+}
