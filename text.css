@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+h1, p {
+    font-family: Arial;
+    font-size: 15;
+}
+
 #title {
     /*------SOME BASIC TEXT STYLES------*/
     /* font-family: Arial;
@@ -11,7 +16,6 @@
     font-style: italic;
     text-align: center; */
 
-    font-family: Arial;
     font-size: 18px;
     font-weight: bold;
     width: 300px;
@@ -21,8 +25,6 @@
 }
 
 .description {
-    font-family: Arial;
-    font-size: 15px;
     color: rgb(90, 90, 90);
 }
 
@@ -30,4 +32,94 @@
     margin-top: 22px;
     color: rgb(100, 100, 100);
     font-weight: bold;
+}
+
+#text {
+    width: 300px;
+    margin-top: 22px;
+}
+
+#apple {
+    background-color: rgb(227, 65, 64);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#shopNow:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#tahoma {
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+#course {
+    margin-top: 10px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+#begin {
+    color: rgb(90, 90, 90);
+    margin-bottom: 10px;
+}
+
+#description {
+    width: 275px;
+}
+
+#start {
+    background-color: rgb(27, 148, 27);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    transition: opacity 0.1s;
+}
+
+#start:hover {
+    opacity: 0.8;
+}
+
+#start:active {
+    opacity: 0.6;
+}
+
+#deal {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#tuesday {
+    color: rgb(247, 36, 36);
+    font-style: italic;
+}
+
+#business {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+
+#apple-work {
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 58px;
+    margin-bottom: 13px;
+}
+
+#learn {
+    color: rgb(17, 133, 227);
+    font-size: 15px;
+    margin-left: 125px;
+    cursor: pointer;
+    transition: text-decoration 0.1s;
+}
+
+#learn:hover {
+    text-decoration: underline;
 }
